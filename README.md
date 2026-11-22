@@ -6,7 +6,7 @@ Prywatne narzędzie do własnych zakupów. Aplikacja nie jest usługą dla innyc
 Wyszukiwanie publicznych ofert (antyki, książki, sztuka polska) i zapisywanie ich lokalnie do własnej analizy cen.
 
 ## Sposób połączenia
-- Aplikacja działa lokalnie na komputerze właściciela, bez przeglądarki (OAuth device_code).
+- Aplikacja działa lokalnie na komputerze właściciela (OAuth authorization_code, lokalny adres przekierowania localhost).
 - Tylko odczyt: wyszukiwanie publicznych ofert przez GET /offers/listing.
 - Aplikacja nie wystawia, nie edytuje ani nie zamyka ofert i nie składa zamówień ani ofert kupna.
 
